@@ -1,0 +1,15 @@
+接下来要更新的内容：
+
+预训练语言模型：Encoder，decoder... pretrain,sft,rlhf
+分词器：BPE, WordPiece, Unigram
+优化器:Adam SGD
+Moe: Mixture of Experts
+混合精度训练: FP16, BF16
+分布式训练：Data Parallel, Model Parallel, Pipeline Parallel
+量化：INT8, INT4
+蒸馏：Knowledge Distillation
+剪枝：Pruning
+微调：LoRA, Prefix Tuning
+效果测评：Perplexity, BLEU, ROUGE, F1 Score
+API Langchain RAG Agent
+技术报告分析如DeepSeek, OpenAI等最新发布的报告
