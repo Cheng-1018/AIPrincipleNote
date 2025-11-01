@@ -20,7 +20,7 @@
 3. **[大模型训练](note/3.大模型训练.md)**
    - Pretrain
    - SFT
-   - RLHF
+   - RLHF:PPO
 
 4. **[分词算法](note/4.tokenizer.md)**
    - BPE
