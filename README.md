@@ -1,3 +1,12 @@
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
 # AI原理学习笔记
 
 本仓库包含AI算法的学习笔记和代码实现，涵盖从基础理论到具体实现的完整学习路径。
