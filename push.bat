@@ -2,6 +2,6 @@
 set http_proxy=http://127.0.0.1:7897
 set https_proxy=http://127.0.0.1:7897
 git add .
-git commit -m "网络优化"
+git commit -m "未来的规划"
 git push
 pause
