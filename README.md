@@ -22,10 +22,12 @@ MathJax.Hub.Config({
    - FNN
    - LayerNorm
    - 训练预测
+
 2. **[预训练语言模型](note/2.预训练语言模型.md)**
    - Encoder Only:BERT,RoBERTa,ALBERT 
    - Encoder-Decoder:T5
    - Decoder:GPT,LLaMA,GLM
+
 3. **[大模型训练](note/3.大模型训练.md)**
    - Pretrain
    - SFT
@@ -43,6 +45,22 @@ MathJax.Hub.Config({
    - 参数初始化
    - 正则化
 
+6. **[其他架构](note/6.其他架构.md)**
+   - MOE
+   - ROPE
+   - MLA
+
+7. **[解码策略](note/7.解码策略.md)**
+   - 贪心搜索
+   - 波束搜索
+   - TopK 采样
+
+8. **[模型压缩](note/8.模型压缩.md)**
+   - 数据类型
+   - 量化方法
+   - 知识蒸馏
+   - 低秩分解
+
 ### 实践篇
 
 - **[Transformer实现](code/transformer/)** - 完整的Transformer英中翻译模型
@@ -55,7 +73,9 @@ MathJax.Hub.Config({
   - [BPE](code/tokenizer/bpetokenizer.py)
   - [wordpiece](code/tokenizer/wordpiecetokenizer.py)
   - [Unigram](code/tokenizer/unigramtokenizer.py)
+
 - **[Agent搭建]()**
+
 ## 🛠️ 环境配置
 
 ```bash
