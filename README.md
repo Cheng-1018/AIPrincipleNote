@@ -74,7 +74,7 @@ MathJax.Hub.Config({
   - [wordpiece](code/tokenizer/wordpiecetokenizer.py)
   - [Unigram](code/tokenizer/unigramtokenizer.py)
 
-- **[Agent搭建]()**
+- **[Agent搭建](code/AIagent/agent.py)**
 
 ## 🛠️ 环境配置
 
@@ -96,3 +96,4 @@ pip install torch jieba
 - **[神经网络与深度学习](https://nndl.github.io/)**
 - **[Awesome-LLM-Learning](https://github.com/kebijuelun/Awesome-LLM-Learning)** 这里是一个专注于大语言模型学习的仓库，旨在为大语言模型学习入门者和大语言模型研发岗位的面试准备者提供全面的基础知识。
 - **[LLM-MCP-RAG 实验项目](https://github.com/StrayDragon/exp-llm-mcp-rag)** 一个基于大语言模型（LLM）、模型上下文协议（MCP）和检索增强生成（RAG）的实验性项目。它展示了如何构建一个能够与外部工具交互并利用检索增强生成技术的 AI 助手系统。
+- **[可视化模型文件](https://netron.app/)**
