@@ -15,51 +15,16 @@ MathJax.Hub.Config({
 
 ### 理论篇
 
-1. **[Transformer](note/1.transformer.md)**
-   - Embedding
-   - 位置编码
-   - 注意力机制
-   - FNN
-   - LayerNorm
-   - 训练预测
-
-2. **[预训练语言模型](note/2.预训练语言模型.md)**
-   - Encoder Only:BERT,RoBERTa,ALBERT 
-   - Encoder-Decoder:T5
-   - Decoder:GPT,LLaMA,GLM
-
-3. **[大模型训练](note/3.大模型训练.md)**
-   - Pretrain
-   - SFT
-   - RLHF:PPO,DPO
-
-4. **[分词算法](note/4.tokenizer.md)**
-   - BPE
-   - WordPiece
-   - Unigram
-
-5. **[网络训练优化](note/5.网络训练优化.md)**
-   - SGD
-   - AdaM
-   - BN,LN归一化
-   - 参数初始化
-   - 正则化
-
-6. **[其他架构](note/6.其他架构.md)**
-   - MOE
-   - ROPE
-   - MLA
-
-7. **[解码策略](note/7.解码策略.md)**
-   - 贪心搜索
-   - 波束搜索
-   - TopK 采样
-
-8. **[模型压缩](note/8.模型压缩.md)**
-   - 数据类型
-   - 量化方法
-   - 知识蒸馏
-   - 低秩分解
+| 章节 | 主题 | 内容 |
+|------|------|------|
+| 1 | [Transformer](note/1.transformer.md) | Embedding、位置编码、注意力机制、FNN、LayerNorm、训练预测 |
+| 2 | [预训练语言模型](note/2.预训练语言模型.md) | Encoder Only:BERT,RoBERTa,ALBERT；Encoder-Decoder:T5；Decoder:GPT,LLaMA,GLM |
+| 3 | [大模型训练](note/3.大模型训练.md) | Pretrain、SFT、RLHF:PPO,DPO |
+| 4 | [分词算法](note/4.tokenizer.md) | BPE、WordPiece、Unigram |
+| 5 | [网络训练优化](note/5.网络训练优化.md) | SGD、AdaM、BN,LN归一化、参数初始化、正则化 |
+| 6 | [其他架构](note/6.其他架构.md) | MOE、ROPE、MLA |
+| 7 | [解码策略](note/7.解码策略.md) | 贪心搜索、波束搜索、TopK 采样 |
+| 8 | [模型压缩](note/8.模型压缩.md) | 数据类型、量化方法、知识蒸馏、低秩分解 |
 
 ### 实践篇
 
